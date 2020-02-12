@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Container from './ImageTag.js';
 import images from './data.js'
+import Header from './Header.js'
 
 class App extends Component {
 state = { selected: null };
@@ -23,6 +24,7 @@ state = { selected: null };
 
     
     <main>
+      <Header />
     <section className="options">
       <select className="creature-filter" onChange={handleChange}>
         <option value="" defaultValue>

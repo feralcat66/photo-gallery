@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: bisque;
+}
+
+h2 {
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: azure;
+}
+img {
+  height: 200px;
+}
+h1{
+  border: solid 2px black;
+  text-align: center;
+  padding: 10px;
+  background-color: azure;
+}
